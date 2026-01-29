@@ -11,6 +11,17 @@ cask "dodoshot" do
 
   app "DodoShot.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/DodoShot.app"],
+                   sudo: false
+  end
+
+  caveats <<~EOS
+    DodoShot requires Screen Recording and Accessibility permissions.
+    Grant these in System Settings > Privacy & Security after first launch.
+  EOS
+
   zap trash: [
     "~/Library/Application Support/DodoShot",
     "~/Library/Caches/com.dodoshot.app",
