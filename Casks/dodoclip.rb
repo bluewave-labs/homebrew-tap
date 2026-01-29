@@ -1,6 +1,6 @@
 cask "dodoclip" do
-  version "1.1.1"
-  sha256 "1978b2e371c13a61ceaabfaeaae91ce1f2865a082cb884ad09b59d8c79cd3c3d"
+  version "1.2.0"
+  sha256 "8652d578135b72449e43ec47df33ed45b2e78827597a91ef4de85a3e971ac0df"
 
   url "https://github.com/bluewave-labs/dodoclip/releases/download/v#{version}/DodoClip-#{version}.dmg"
   name "DodoClip"
