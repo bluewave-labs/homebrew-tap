@@ -10,6 +10,20 @@ brew tap bluewave-labs/tap
 
 ## Available formulas
 
+### DodoShot
+
+A beautiful, open-source screenshot tool for macOS.
+
+```bash
+brew install --cask bluewave-labs/tap/dodoshot
+```
+
+Or after tapping:
+
+```bash
+brew install --cask dodoshot
+```
+
 ### DodoClip
 
 A free, open-source clipboard manager for macOS.
